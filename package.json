@@ -1,0 +1,22 @@
+{
+  "name": "electron-react",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron -r babel-register ./app"
+  },
+  "dependencies": {
+    "electron": "^1.6.7",
+    "express": "^4.15.2",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-router": "^4.1.1",
+    "react-router-dom": "^4.1.1"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "electron-load-devtool": "^0.5.1"
+  }
+}
